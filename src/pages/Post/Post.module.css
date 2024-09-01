@@ -14,3 +14,6 @@
 .tags span {
     font-weight: bold;
 }
+.post_container img {
+    width: 1000px;
+}
