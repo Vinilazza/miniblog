@@ -23,3 +23,6 @@
     font-size: 0.8em;
     margin-bottom: 1em;
 }
+.link_name:hover{
+    color: #444;
+}

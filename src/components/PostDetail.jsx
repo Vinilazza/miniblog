@@ -24,7 +24,7 @@ const PostDetail = ({ post }) => {
 
 
   return (
-    <Link to={`/posts/${post.id}`}>
+    <Link to={`/posts/${post.id}`} className={styles.link_name}>
     <div className={styles.post_detail}>
       <img src={post.image} alt={post.title} />
       <h2>{post.title}</h2>
